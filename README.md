@@ -8,6 +8,7 @@
 - Ejecutar las migraciones
 
   $python manage.py makemigrations
+  
   $python manage.py migrate
   
 - Ejecutar el proyecto
