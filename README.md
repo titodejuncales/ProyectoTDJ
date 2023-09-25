@@ -22,7 +22,7 @@ En cada una de estas secciones vas a encontrar dos botones para acceder, por un 
 y por otro a la búsqueda de artículos ya generados. 
 En la subsección de creación de nuevos artículos se encuentra un formulario con todos los campos necesarios para dar
 de alta nuevas camisetas. Una vez completo el formulario, presionamos el botón "guardar" y los datos ingresados quedan
-registrados en nuestra base de datos
+registrados en nuestra base de datos.
 Por otro lado, en la subsección de búsqueda de artículos, se encuentra un campo para completar con el nombre del club
 del cual deseas buscar camisetas. Luego con el botón de buscar la página arroja los resultados que contienen el valor
 ingresado.
