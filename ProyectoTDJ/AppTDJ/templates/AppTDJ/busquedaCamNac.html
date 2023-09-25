@@ -1,0 +1,29 @@
+{% extends "AppTDJ/padre.html" %}
+
+{% load static %}
+
+{% block botonera %}
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    Menu
+    <i class="fas fa-bars"></i>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'Camnac'%}">Camisetas Nacionales</a></li>
+        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'Camint'%}">Camisetas Internacionales</a></li>
+        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'Camsel'%}">Camisetas Selecciones</a></li>
+    </ul>
+</div>
+{% endblock %}
+
+{% block titulo %}
+<h1>Camisetas nacionales</h1>
+<span class="subheading"></span>
+
+<form action="/AppTDJ/resultcamnac/" method="GET">
+    <input type="text" name="club" id="club">
+    <input type="submit" value="Buscar">
+</form>
+
+{% endblock %}
